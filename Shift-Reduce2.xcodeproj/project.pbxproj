@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		A5DD889C248A3ECD002C5D5C /* Shift-Reduce2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Shift-Reduce2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DD889F248A3ECD002C5D5C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A5DD88A6248A3F6B002C5D5C /* DFAstateInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAstateInfo.h; sourceTree = "<group>"; };
+		A5DD88A7248A4015002C5D5C /* FollowSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowSet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				A5DD889F248A3ECD002C5D5C /* main.cpp */,
+				A5DD88A6248A3F6B002C5D5C /* DFAstateInfo.h */,
+				A5DD88A7248A4015002C5D5C /* FollowSet.h */,
 			);
 			path = "Shift-Reduce2";
 			sourceTree = "<group>";
